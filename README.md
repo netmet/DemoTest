@@ -1,13 +1,26 @@
-Run the web page locally
+Run the web page on GitHub:
 
-Steps:
-Clone the repo (if you haven’t already):
-/s
 
-$ git clone https://github.com/username/rDemoTest.git/s
+tep-by-Step:
+Go to your repo on GitHub
+Example: https://github.com/yourusername/your-repo
 
-$ cd DemoTest/s
+Click Settings (top right tab)
 
-$ ls //find the index.html file/s
+In the left-hand sidebar, scroll to Pages
+(May be listed under “Code and automation” → Pages)
 
-$ xdg-open index.html  //Open it in your browser
+Under "Source", choose:
+
+Branch: main (or master, if that’s your default)
+
+Folder: / (root)
+✅ Do not select /docs unless your index.html is in a docs/ folder
+
+Click Save
+
+GitHub will generate a live link like:
+
+https://netmet.github.io/DemoTest/
+
+Wait 30–60 seconds, then go to that URL. Your index.html and logo.png will be live and rendered properly.
